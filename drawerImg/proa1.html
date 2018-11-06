@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>抽屉式效果</title>
+<script src="C:/Users/XY/Desktop/jquery-3.3.1.min.js"></script>
+<script src="C:/Users/XY/Desktop/vue.js"></script>
+	<style>
+	*{margin:0;padding:0;box-sizing:border-box;}
+	ul{list-style:none;}
+	a{ font-size:16px;text-decoration:none;color:#666; }
+	div{
+		width:300px;
+		margin:20px auto;
+	}
+	#list li{
+		height:40px;
+		line-height:40px;
+		overflow:hidden;
+		background-color: #efefef;
+		text-indent:1em;
+		margin-bottom:3px;
+		transition:height 0.3s ease;
+	}
+	#list li img{
+		width:300px;
+		height:200px;
+	}
+	#list li:nth-child(1){
+		height:240px;
+		background-color: #F36;
+	}
+	#list li:nth-child(1) a{color:#fff;}
+  	#list:hover li{ height:40px;background:#efefef; }
+  	#list:hover li a{color:#666;}
+  	#list li:hover{height:240px; background:#F36;}
+  	#list li:hover a{color:#fff; }
+	</style>
+</head>
+<body>
+
+<div>
+	<ul id="list">
+		<li>
+			<a href="">国际美妆抢先看</a>
+			<img src=".imgs/1.jpg" alt="">
+		</li>
+		<li>
+			<a href="">女神标准大讨论</a>
+			<img src=".imgs/2.jpg" alt="">
+		</li>
+		<li>
+			<a href="">吃货也能越吃越瘦</a>
+			<img src=".imgs/3.jpg" alt="">
+		</li>
+		<li>
+			<a href="">连衣裙抢头条</a>
+			<img src=".imgs/4.jpg" alt="">
+		</li>
+		<li>
+			<a href="">宫三女主美妆对决</a>
+			<img src=".imgs/5.jpg" alt="">
+		</li>
+	</ul>
+</div>
+<script>
+
+</script>
+</body>
+</html>
+
+
